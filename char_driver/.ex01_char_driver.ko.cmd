@@ -1,0 +1,1 @@
+cmd_/home/spanpunelt25/session2/char_driver/ex01_char_driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/spanpunelt25/session2/char_driver/ex01_char_driver.ko /home/spanpunelt25/session2/char_driver/ex01_char_driver.o /home/spanpunelt25/session2/char_driver/ex01_char_driver.mod.o
